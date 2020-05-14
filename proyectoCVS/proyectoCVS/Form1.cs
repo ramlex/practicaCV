@@ -16,5 +16,10 @@ namespace proyectoCVS
         {
             InitializeComponent();
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            tListaSocios.Text = tListaSocios.Text +" "+ "\n" + tNombre.Text + " " + tApellido.Text + " " + tTelefono.Text;
+        }
     }
 }
